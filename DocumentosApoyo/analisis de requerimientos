@@ -1,0 +1,28 @@
+Analisis de Requerimientos
+
+Se requiere un sistema que pueda tener una jerarquia establecida asi como la creacion de diferentes etapas, basicamente se necesita
+que el software pueda crear proyectos, crear tipos de casos, crear casos y asignar estos casos a desarrolladores, asi como la implementacion
+de etapas que estan vinculadas con los casos y los tipos de casos, asi de esa forma hacer que los desarrollares tengan que trabajar en estas 
+etapas dentro de una fecha limite, luego de esto que los administradores de proyecto revisen el trabajo realizado por dicho desarrollador
+y aceptar o no la etapa, si se acepta la etapa se procede con la siguiente y asi hacer que se lleve un flujo las etapas de un caso hasta la 
+finalizacion del mismo. Esto es a rasgos generales, luego existen distintas operaciones un poco mas especificas que se entrara en detalle
+mas adelante.
+
+Se necesita crear usuarios, que tengan: nombre, apellido, usuario, contraseña, dinero por hora que cobra, tipo de usuario que va a ser.
+Esto servira para que puedan tener acceso a las distintas partes del sistema y la base de datos.
+
+Se necesita crear proyectos, para esto solo se necesitara darle un nombre, y un id propio.
+Se necesita crear tipos de casos, especificando un nombre y el numero de etapas que va a tener
+Se necesita crear casos, especificando el tipo, el nombre y la fecha limite de este caso, asi de esta forma asignar el desarrollador de la primera etapa.
+Se necesita crear etapas con un nombre, un identificador unico, y la fecha limite que tendra esta etapa.
+Al finalizar una etapa se necesita un mecanismo que haga que un desarrollador introduzca  un comentario y el tiempo que tardo en hacerlo.
+Para luego hacer que se pueda validar el trabajo hecho por el desarrollador en la interfaz del administrador de proyecto.
+Se necesita poder visualizar toda la informacion de la base de datos si es un administrdor de sistema, y todo los proyectos asignados en los que esta involucrado un usuario si este esta en el area de administracion de proyectos, asi como los casos a los que esta asignado un desarrollador. 
+Se debe tener la opcion de desactivar un proyecto
+Se debe tener la opcion de cancelar un caso.
+Se debe tener la opcion de cambiar la fecha limite de un proyecto
+Se debe tener la opcion de cambiar la fecha limite de un caso
+Se debe poder visualizar las acciones que se registren en el proyecto 
+
+Basicamente esto seria todo los requerimientos que se necesitan.
+
